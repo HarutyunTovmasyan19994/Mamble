@@ -1,0 +1,22 @@
+.todoWrapper{
+    @apply w-full flex justify-center mt-16
+}
+.todoListWrapper{
+    @apply w-full flex justify-center mt-16
+}
+.todos{
+    @apply w-2/3 border-b border-solid   border-gray-300 flex justify-between
+}
+.todoCheckbox{
+    @apply flex justify-start p-5
+}
+.inputCheckbox{
+    @apply mr-9
+}
+.yourLife{
+    @apply font-serif not-italic font-medium text-xl capitalize text-gray-500 tracking-widest text-center
+}
+.soStart{
+    @apply font-serif not-italic font-medium text-4xl tracking-widest text-gray-900 capitalize
+}
+

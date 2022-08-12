@@ -1,0 +1,13 @@
+
+.HideCommon {
+    @apply w-full mt-36 flex justify-end mr-52
+}
+.form{
+    @apply flex justify-end mr-52
+}
+.hideText{
+    @apply ml-2 not-italic font-sans text-lg font-medium
+}
+.checkBox{
+    @apply bg-cyan-700
+}

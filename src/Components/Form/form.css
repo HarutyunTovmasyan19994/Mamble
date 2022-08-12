@@ -1,0 +1,36 @@
+.taskForm{
+    @apply w-full flex justify-center
+}
+.taskText{
+    @apply  font-sans not-italic text-lg capitalize text-cyan-600
+}
+
+.taskInput{
+    @apply w-full box-border border-2 border-solid border-yellow-400 rounded p-1.5 mr-6
+}
+.forms{
+    @apply w-5/12
+}
+.inputBtn{
+    @apply  flex w-full
+}
+.btn{
+    @apply not-italic font-sans text-lg font-medium capitalize rounded box-border bg-cyan-600 w-24
+}
+@media (max-width: 900px) {
+    .taskText{
+        @apply   mr-auto
+    }
+    .inputBtn{
+        @apply flex-wrap justify-end w-9/12 ml-auto mr-auto
+    }
+    .taskInput{
+        @apply mb-1.5 w-full mr-auto ml-auto
+    }
+    .taskForm{
+        @apply w-full mr-auto ml-auto
+    }
+    .forms{
+        @apply w-full
+    }
+}
