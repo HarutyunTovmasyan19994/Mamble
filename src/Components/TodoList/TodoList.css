@@ -2,14 +2,17 @@
     @apply w-full flex justify-center mt-16
 }
 .todoListWrapper{
-    @apply w-full flex justify-center mt-16
-}
+    @apply w-full flex justify-center mt-16 block
+}.todoListWrapperHide{
+     @apply w-full flex justify-center mt-16 hidden
+ }
 .todos{
-    @apply w-2/3 border-b border-solid   border-gray-300 flex justify-between
+    @apply w-2/3 border-b border-solid  border-gray-300 flex justify-between
 }
 .todoCheckbox{
     @apply flex justify-start p-5
 }
+
 .inputCheckbox{
     @apply mr-9
 }
@@ -18,5 +21,11 @@
 }
 .soStart{
     @apply font-serif not-italic font-medium text-4xl tracking-widest text-gray-900 capitalize
+}
+.todoText{
+    @apply not-italic font-serif font-normal text-lg text-gray-800
+}
+.todoTextLine{
+    @apply not-italic font-serif font-normal text-lg text-gray-400
 }
 

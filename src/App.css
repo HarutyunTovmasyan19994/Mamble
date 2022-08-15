@@ -1,3 +1,3 @@
 .common{
-        @apply  w-full h-auto bg-neutral-200  justify-center
+        @apply flex w-full h-full bg-neutral-200  justify-center
 }

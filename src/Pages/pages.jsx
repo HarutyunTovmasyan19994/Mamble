@@ -1,7 +1,7 @@
 import React from "react";
 import From from "../Components/Form/form";
 import HideCompleted from "../Components/HideComplated/hideComplated";
-import TodoList from "../Components/TodoList/TodoList";
+import TodoLists from "../Components/TodoList/TodoList";
 import "./pages.css"
 
 const Pages = () => {
@@ -9,7 +9,7 @@ const Pages = () => {
         <div className="formCommon">
             <HideCompleted/>
             <From/>
-            <TodoList/>
+            <TodoLists/>
         </div>
     )
 }

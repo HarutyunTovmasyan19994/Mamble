@@ -4,7 +4,7 @@ import "./App.css"
 
 function App() {
     return (
-        <div className="common" style={{display:"flex"}}>
+        <div className="common" >
             <Pages/>
         </div>
 
